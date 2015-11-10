@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+
+
+raspistill -vf -hf -o /home/pi/surveyor/image.jpg 
+
+
+make 
+
+./rasp image.jpg 0 1 0 0 0 1 1 10 19 0 1 10 20 30 
+
